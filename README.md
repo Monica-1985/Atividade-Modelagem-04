@@ -5,7 +5,7 @@
 ## 📝 Descrição do Projeto
 Este projeto consiste na implementação prática de um banco de dados relacional (SQL) baseado em um cenário de "Mini-Mundo" real. O objetivo foi criar scripts DML (*Data Manipulation Language*) para popular, consultar e manipular dados, integrando o modelo lógico criado anteriormente com a prática de versionamento de código.
 
-O cenário escolhido foca na gestão de **[Descreva aqui em 1 linha: ex: doações, voluntários e projetos da ONG Vida e Esperança]**.
+O cenário escolhido foca na gestão de **{ doações, voluntários e projetos da ONG Vida e Esperança}**.
 
 ## 🎯 Objetivos de Aprendizagem
 Este projeto atende aos requisitos da atividade prática (Taxonomia de Fink/Bloom), demonstrando:
@@ -26,6 +26,11 @@ O repositório está organizado da seguinte forma:
 3.  `3_queries_select.sql` (Consultas estratégicas com WHERE, JOIN, ORDER BY)
 4.  `4_update_delete.sql` (Scripts de manipulação e exclusão de dados)
 
+   Modelagem de Dados – Projeto ONG Vida e Esperança85/Atividade-Modelagem-04.git)
+
+![Diagrama da ONG](imagem/diagrama%20da%20ong.PNG)
+
+
 ## 🚀 Como Executar o Projeto
 
 ### Pré-requisitos
@@ -34,7 +39,51 @@ Ter instalado o **MySQL Server** e uma ferramenta cliente (Workbench, DBeaver ou
 ### Passo a Passo
 1. Clone este repositório:
    ```bash
-   git clone (https://github.com/Monica-1985/Atividade-Modelagem-04.git)
+   git clone (https://github.com/Monica-19
+🧪 Como Executar o Projeto
+1️⃣ Clonar o repositório
+git clone https://github.com/Monica-1985/Atividade-Modelagem-04.git
 
-![Diagrama da ONG](imagem/diagrama%20da%20ong.PNG)
+2️⃣ Abrir no VS Code
+code Atividade-Modelagem-04
+
+3️⃣ Executar o script SQL no MySQL Workbench
+
+Abra o MySQL Workbench
+
+Vá em File → Open SQL Script
+
+Selecione o arquivo:
+
+script_tabelas.sql
+
+
+Execute o comando RUN (⚡)
+
+4️⃣ Verificar se deu certo
+SHOW DATABASES;
+USE ong;
+SHOW TABLES;
+
+📂 Arquivos Importantes
+Arquivo	Função
+minimundo.txt	Texto base do projeto
+modelo_logico.mwb	Arquivo do MySQL Workbench
+script_tabelas.sql	Criação das tabelas
+imagem/	Diagramas e imagens do projeto
+🤝 Como Contribuir
+
+Faça um fork do repositório
+
+Crie uma nova branch
+
+Faça suas alterações
+
+Envie um pull request
+
+💙 Autora
+
+Monica Soares Sena
+
+
 

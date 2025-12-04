@@ -35,4 +35,6 @@ Ter instalado o **MySQL Server** e uma ferramenta cliente (Workbench, DBeaver ou
 1. Clone este repositório:
    ```bash
    git clone [[Cole o link do seu repositório aqui](https://github.com/Monica-1985/Atividade-Modelagem-04.git)]
+   ![Diagrama da ONG](imagem/diagrama%20da%20ong.PNG)
+
 

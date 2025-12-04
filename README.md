@@ -1,46 +1,61 @@
-# 🗄️ Projeto SQL: Mini-Mundo [Nome do Projeto/ONG Vida e Esperança]
+🌟 ONG Vida e Esperança – Modelagem de Dados
 
-![Status](https://img.shields.io/badge/Status-Concluído-green) ![MySQL](https://img.shields.io/badge/Database-MySQL-blue)
+Repositório do projeto de Modelagem de Dados da ONG Vida e Esperança.
+O conteúdo inclui:
 
-## 📝 Descrição do Projeto
-Este projeto consiste na implementação prática de um banco de dados relacional (SQL) baseado em um cenário de "Mini-Mundo" real. O objetivo foi criar scripts DML (*Data Manipulation Language*) para popular, consultar e manipular dados, integrando o modelo lógico criado anteriormente com a prática de versionamento de código.
+Minimundo
 
-O cenário escolhido foca na gestão de **{ doações, voluntários e projetos da ONG Vida e Esperança}**.
+Diagrama ER
 
-## 🎯 Objetivos de Aprendizagem
-Este projeto atende aos requisitos da atividade prática (Taxonomia de Fink/Bloom), demonstrando:
-- **Aplicação:** Execução de comandos SQL em ambiente real (MySQL Workbench/VS Code).
-- **Criação:** Desenvolvimento de scripts estruturados para `INSERT`, `SELECT`, `UPDATE` e `DELETE`.
-- **Integração:** Conexão entre a modelagem lógica e a implementação física.
+Modelo lógico
 
-## 🛠️ Tecnologias Utilizadas
-- **SGBD:** MySQL Server [ou PostgreSQL, se você mudou]
-- **Ferramenta de Gerenciamento:** MySQL Workbench / VS Code (Extensão SQLTools)
-- **Versionamento:** Git e GitHub
+Scripts SQL (CREATE, INSERT, SELECT, UPDATE e DELETE)
 
-## 📂 Estrutura dos Arquivos
-O repositório está organizado da seguinte forma:
+Material desenvolvido para a disciplina de Modelagem e voltado para compreensão do funcionamento da base de dados proposta.
 
-1.  `1_create_tables.sql` (Opcional: Script de criação das tabelas/DDL)
-2.  `2_insert_data.sql` (Scripts de inserção de dados para povoar as tabelas)
-3.  `3_queries_select.sql` (Consultas estratégicas com WHERE, JOIN, ORDER BY)
-4.  `4_update_delete.sql` (Scripts de manipulação e exclusão de dados)
+📌 📑 Índice
 
-   Modelagem de Dados – Projeto ONG Vida e Esperança85/Atividade-Modelagem-04.git)
+Sobre o Projeto
+
+Tecnologias Utilizadas
+
+Diagrama do Projeto
+
+Como Executar o Projeto
+
+Arquivos Importantes
+
+Como Contribuir
+
+🧩 Sobre o Projeto
+
+Este projeto tem como objetivo desenvolver a modelagem de dados completa para a ONG Vida e Esperança, contemplando:
+
+✔ Minimundo
+✔ Diagrama Entidade-Relacionamento
+✔ Modelo Lógico
+✔ Criação das tabelas em SQL
+✔ Testes das consultas no MySQL
+
+🛠 Tecnologias Utilizadas
+
+MySQL
+
+MySQL Workbench
+
+VS Code
+
+Git & GitHub
+
+🖼 Diagrama do Projeto (DER)
+
 
 ![Diagrama da ONG](imagem/diagrama%20da%20ong.PNG)
 
 
-## 🚀 Como Executar o Projeto
 
-### Pré-requisitos
-Ter instalado o **MySQL Server** e uma ferramenta cliente (Workbench, DBeaver ou VS Code).
-
-### Passo a Passo
-1. Clone este repositório:
-   ```bash
-   git clone (https://github.com/Monica-19
 🧪 Como Executar o Projeto
+
 1️⃣ Clonar o repositório
 git clone https://github.com/Monica-1985/Atividade-Modelagem-04.git
 
@@ -84,6 +99,4 @@ Envie um pull request
 💙 Autora
 
 Monica Soares Sena
-
-
-
+Modelagem de Dados – Projeto ONG Vida e Esperança
